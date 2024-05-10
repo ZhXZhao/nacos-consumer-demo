@@ -1,0 +1,9 @@
+server:
+  port: 9088
+spring:
+  application:
+    name: nacos-consumer-demo
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${NACOS_SERVER:127.0.0.1:8848}
